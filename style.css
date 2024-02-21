@@ -1,0 +1,81 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family:papyrus;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+
+}
+.img1{
+background-image: url(wonderlatitlepage.avif);
+min-height: 100%;
+}
+.img2{
+    background-image: url(wonderla3.avif);
+    min-height: 100%;
+ }
+.img3{
+background-image: url(wonderla2.jpg);
+min-height: 100%;
+        
+}
+.img1,.img2,.img3
+{
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ptext
+{
+    position: absolute;
+     top: 50%;
+     width: 100%;
+     text-align: center;
+     color: black;
+     font-size: 27px;
+     letter-spacing: 5px;
+     text-transform: uppercase;
+     
+}
+.textbg, .text{
+    background:#161616;
+    border-radius:3%;
+    font-weight: bolder;
+    color: #fff;
+    padding :30px;
+}
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+.section-light
+{
+    background-color:white ;
+    color:black;
+}
+.section-dark{
+    background-color: black;
+    color: white;
+}
+.imglast{
+    background-image: url(wonderlatitlepage.avif);
+ min-height: 100%;
+ position: relative;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+
+}
+.lasttext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
